@@ -6,4 +6,7 @@
   body {
     @apply font-primary bg-darkblue text-white leading-normal;
   }
+  .btn {
+    @apply bg-blue h-[60px] px-4 rounded-full hover:bg-blue-hover transition flex items-center text-lg font-medium outline-none;
+  }
 }
