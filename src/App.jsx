@@ -1,4 +1,4 @@
-import { Hero, Header, NavMobile } from "./components";
+import { Hero, Header, NavMobile, Stats } from "./components";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -25,6 +25,7 @@ const App = () => {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+      <Stats />
     </div>
   );
 };
