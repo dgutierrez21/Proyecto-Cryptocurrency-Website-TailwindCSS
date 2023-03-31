@@ -21,4 +21,26 @@ export const navData = [
   },
 ];
 
-export const currency = [];
+export const currency = [
+  {
+    image: BitconImg,
+    name: "Bitcoin",
+    abbr: "BTC",
+    description:
+      "Digital currency in which a record of transactions is maintained.",
+  },
+  {
+    image: EthereumImg,
+    name: "Ethereum",
+    abbr: "ETH",
+    description:
+      "Blockchain technology to create and run decentralized digital applications.",
+  },
+  {
+    image: LitecoinImg,
+    name: "Litecoin",
+    abbr: "LTC",
+    description:
+      "Cryptocurrency that enables instant payments to anyone in the world.",
+  },
+];

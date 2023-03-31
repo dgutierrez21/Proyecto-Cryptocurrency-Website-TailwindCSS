@@ -6,3 +6,4 @@ export * from "./NavMobile";
 export * from "./Stats";
 export * from "./Why";
 export * from "./Calculate";
+export * from "./Trade";
