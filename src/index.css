@@ -21,4 +21,14 @@
   .section-subtitle {
     @apply mt-6 mb-8 text-gray;
   }
+  .input,
+  .select {
+    @apply outline-none w-full border-b border-gray text-darkblue h-[38px] text-xl;
+  }
+  .input {
+    @apply lg:max-w-[410px] bg-transparent;
+  }
+  .select {
+    @apply lg:max-w-[200px] cursor-pointer;
+  }
 }

@@ -5,3 +5,4 @@ export * from "./AccountBtns";
 export * from "./NavMobile";
 export * from "./Stats";
 export * from "./Why";
+export * from "./Calculate";

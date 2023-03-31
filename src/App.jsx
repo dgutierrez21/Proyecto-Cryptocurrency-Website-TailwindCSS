@@ -1,4 +1,4 @@
-import { Hero, Header, NavMobile, Stats, Why } from "./components";
+import { Hero, Header, NavMobile, Stats, Why, Calculate } from "./components";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -27,6 +27,7 @@ const App = () => {
       </div>
       <Stats />
       <Why />
+      <Calculate />
       <div className="h-[2000px]"></div>
     </div>
   );
