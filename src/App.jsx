@@ -1,10 +1,11 @@
-import { Hero } from "./components/Hero";
+import { Hero, Header, NavMobile } from "./components";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const App = () => {
+  const [navMobile, setNavMobile] = useState(false);
   useEffect(() => {
     Aos.init({
       duration: 2500,
@@ -13,9 +14,18 @@ const App = () => {
   });
 
   return (
-    <>
+    <div className="overflow-hidden">
+      <Header setNavMobile={setNavMobile} />
       <Hero />
-    </>
+
+      <div
+        className={`${
+          navMobile ? "right-0" : "-right-[320px]"
+        } fixed z-10 top-0 h-full transition-all ease-in-out duration-300`}
+      >
+        <NavMobile setNavMobile={setNavMobile} />
+      </div>
+    </div>
   );
 };
 
