@@ -1,4 +1,5 @@
-import { FeatureSection1, FeatureSection2 } from "./";
+import { FeatureSection1, FeatureSection2, FeatureSection3 } from "./";
+
 export const Features = () => {
   return (
     <section className="bg-violet pt-12 lg:pt-24">
@@ -15,6 +16,7 @@ export const Features = () => {
         </div>
         <FeatureSection1 />
         <FeatureSection2 />
+        <FeatureSection3 />
       </div>
     </section>
   );
