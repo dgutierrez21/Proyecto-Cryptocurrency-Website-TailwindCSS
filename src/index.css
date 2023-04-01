@@ -31,4 +31,7 @@
   .select {
     @apply lg:max-w-[200px] cursor-pointer;
   }
+   .h3 {
+    @apply text-[22px] lg:text-[32px] font-bold;
+  }
 }

@@ -6,6 +6,7 @@ import {
   Why,
   Calculate,
   Trade,
+  Features,
 } from "./components";
 
 import Aos from "aos";
@@ -37,6 +38,7 @@ const App = () => {
       <Why />
       <Calculate />
       <Trade />
+      <Features />
       <div className="h-[2000px]"></div>
     </div>
   );

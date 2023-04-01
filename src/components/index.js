@@ -7,3 +7,5 @@ export * from "./Stats";
 export * from "./Why";
 export * from "./Calculate";
 export * from "./Trade";
+export * from "./Features";
+export * from "./FeatureSection1";
