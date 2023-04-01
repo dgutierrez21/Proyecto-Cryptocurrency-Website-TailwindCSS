@@ -9,3 +9,4 @@ export * from "./Calculate";
 export * from "./Trade";
 export * from "./Features";
 export * from "./FeatureSection1";
+export * from "./FeatureSection2";
