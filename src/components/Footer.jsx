@@ -89,7 +89,7 @@ export const Footer = () => {
 
           <div className="flex-1">
             <div className="lg:ml-[80px]">
-              <h3 className="h3 font-medium mb-6 text-center lg:text-left">
+              <h3 className="h3 font-medium mb-10 text-center lg:text-left">
                 We accept following payment systems
               </h3>
               <div className="flex justify-center gap-6">
