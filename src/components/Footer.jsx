@@ -3,9 +3,16 @@ import visaImg from "../assets/img/visa.png";
 import mastercardImg from "../assets/img/mastercard.png";
 import bitcoinImg from "../assets/img/bitcoin.png";
 
+import {
+  IoLogoYoutube,
+  IoLogoInstagram,
+  IoLogoTwitter,
+  IoLogoLinkedin,
+} from "react-icons/io";
+
 export const Footer = () => {
   return (
-    <footer className="lg:pt-24 pt-0">
+    <footer className="lg:pt-24 pt-0" data-aos="fade-up" data-aos-offset="450">
       <div className="container mx-auto lg:mb-24">
         <div className="flex flex-col gap-12 lg:flex-row">
           <div className="flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]">
@@ -91,6 +98,43 @@ export const Footer = () => {
                 <img src={bitcoinImg} alt="" />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-12">
+        <div className="container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0">
+          <p>&copy; 2023 CRAPPO. ALL rights reserved.</p>
+
+          <div className="flex text-2xl gap-x-8">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              className="hover:text-blue transition-colors duration-300"
+            >
+              <IoLogoInstagram />
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              className="hover:text-blue transition-colors duration-300"
+            >
+              <IoLogoYoutube />
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              className="hover:text-blue transition-colors duration-300"
+            >
+              <IoLogoLinkedin />
+            </a>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              className="hover:text-blue transition-colors duration-300"
+            >
+              <IoLogoTwitter />
+            </a>
           </div>
         </div>
       </div>
