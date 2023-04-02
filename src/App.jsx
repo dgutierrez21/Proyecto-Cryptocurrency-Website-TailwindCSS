@@ -8,6 +8,7 @@ import {
   Trade,
   Features,
   Newsletter,
+  Footer,
 } from "./components";
 
 import Aos from "aos";
@@ -41,7 +42,8 @@ const App = () => {
       <Trade />
       <Features />
       <Newsletter />
-      <div className="h-[2000px]"></div>
+      <Footer />
+      <div className="h-[300px]"></div>
     </div>
   );
 };

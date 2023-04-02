@@ -12,3 +12,4 @@ export * from "./FeatureSection1";
 export * from "./FeatureSection2";
 export * from "./FeatureSection3";
 export * from "./Newsletter";
+export * from "./Footer";
