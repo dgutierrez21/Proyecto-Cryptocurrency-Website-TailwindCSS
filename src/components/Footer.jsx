@@ -1,4 +1,7 @@
 import Logo from "../assets/img/logo.svg";
+import visaImg from "../assets/img/visa.png";
+import mastercardImg from "../assets/img/mastercard.png";
+import bitcoinImg from "../assets/img/bitcoin.png";
 
 export const Footer = () => {
   return (
@@ -74,6 +77,19 @@ export const Footer = () => {
                   </a>
                 </li>
               </ul>
+            </div>
+          </div>
+
+          <div className="flex-1">
+            <div className="lg:ml-[80px]">
+              <h3 className="h3 font-medium mb-6 text-center lg:text-left">
+                We accept following payment systems
+              </h3>
+              <div className="flex justify-center gap-6">
+                <img src={visaImg} alt="" />
+                <img src={mastercardImg} alt="" />
+                <img src={bitcoinImg} alt="" />
+              </div>
             </div>
           </div>
         </div>
